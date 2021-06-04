@@ -1,0 +1,77 @@
+.logo {
+  width: 100%;
+  height: 260px;
+  align-items: flex-end;
+  padding-bottom: 40px;
+}
+.logo h1 {
+  font-size: 3.5rem;
+  font-family: var(--cursive-font);
+}
+.loginLogo {
+  height: 280px;
+  padding-bottom: 0px;
+}
+.loginForm {
+  margin-top: 50px;
+}
+.form {
+  width: 100%;
+  height: 100%;
+}
+.form form {
+  width: 100%;
+  height: 100%;
+}
+.inputBox {
+  width: 85%;
+  height: 50px;
+  border: 1px solid var(--grey-color);
+  margin-bottom: 20px;
+}
+.inputBox:hover,
+.searchBox :active,
+.searchBox :focus {
+  border: 1px solid rgb(39, 178, 233);
+}
+.inputBox input {
+  width: 87%;
+  height: 100%;
+  border: none;
+  padding-top: 3px;
+}
+.inputBox input::placeholder {
+  font-size: 0.9rem;
+  color: rgb(112, 112, 112);
+}
+.inputIcon {
+  width: 13%;
+  height: 100%;
+}
+.submitBtn {
+  width: 85%;
+  height: 50px;
+}
+.submitBtn button {
+  width: 97%;
+  height: 100%;
+  background: rgb(39, 178, 233);
+  color: #fff;
+  border: none;
+  font-size: 1.1rem;
+  font-weight: 500;
+  border-radius: 60px;
+  box-shadow: var(--box-shadow);
+}
+.bottomText {
+  width: 85%;
+  height: 50px;
+}
+.bottomText p {
+  font-weight: 400;
+  font-size: 0.9.5rem;
+}
+.hcLogin{
+  height:100px;
+  padding: 0 30px;
+}
